@@ -12,8 +12,8 @@ h1{
   font-family: 'Fjalla One';
   font-size: 80px;
 }
-.aboutMe{
-
+h2, h3{
+font-family: 'Fjalla One';
 }
 .bground{
   position: relative;
@@ -83,17 +83,16 @@ li{
 }
 
 #recent{
-  display: flex;
-  background-color: gray;
-  padding: 5%;
-  max-width: 100%;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
 }
 span{
+background-color: lightBlue;
+font-size: 20px;
 
 }
 span img{
-  width: 80%;
-}
+max-width: 100%;
 
-@media (max-width: 400px){ a img{width: 100%;}}
+}

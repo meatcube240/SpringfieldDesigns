@@ -10,10 +10,11 @@ body {
 
 h1{
   font-family: 'Fjalla One';
-  font-size: 80px;
+  font-size: 80%;
 }
 h2, h3{
 font-family: 'Fjalla One';
+  font-size: 70%
 }
 .bground{
   position: relative;
@@ -37,12 +38,12 @@ margin: 25px;
 display: flex;
 justify-content: center;
 align-items: center;
-line-height: 20px;
+line-height: 40px;
 
 
 }
  a img, #projects img{
-  max-width: 300px;
+  max-height: 300px;
   border: 1px solid black;
 }
 
@@ -74,13 +75,13 @@ p, ul{
 ul{
   background-color: orange;
   padding: 20px;
-  font-size: 38px;
+  font-size: 50%;
 }
 
 li{
     text-decoration: none;
     text-align: left;
-    font-size: 30px;
+    font-size: 45%;
 
 }
 

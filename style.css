@@ -10,11 +10,9 @@ body {
 
 h1{
   font-family: 'Fjalla One';
-  font-size: 90px;
 }
 h2, h3{
 font-family: 'Fjalla One';
-  font-size: 80px;
 }
 .bground{
   position: relative;
@@ -50,7 +48,7 @@ line-height: 70px;
 
 p, ul{
   font-family: 'Roboto';
-  font-size: 60px;
+  
 }
 #main{
   position: relative;
@@ -81,7 +79,6 @@ ul{
 li{
     text-decoration: none;
     text-align: left;
-    font-size: 50px;
 
 }
 
@@ -92,7 +89,6 @@ li{
 }
 span{
 background-color: lightBlue;
-font-size: 20px;
 
 }
 span img{

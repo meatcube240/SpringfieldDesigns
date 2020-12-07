@@ -80,13 +80,7 @@ li{
     text-align: left;
 
 }
-form{
-  width: 300px;
-  background-color: lightblue;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
+
 #recent{
   display: flex;
   background-color: gray;

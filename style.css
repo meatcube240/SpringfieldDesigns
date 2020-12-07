@@ -74,11 +74,13 @@ p, ul{
 ul{
   background-color: orange;
   padding: 20px;
+  font-size: 38px;
 }
 
 li{
     text-decoration: none;
     text-align: left;
+    font-size: 30px;
 
 }
 

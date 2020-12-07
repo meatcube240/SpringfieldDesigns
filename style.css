@@ -67,6 +67,7 @@ p, ul{
   height:80px;
   width: 80px;
   border-radius: 50%;
+  filter: grayscale(100%);
 }
 #header{
 }

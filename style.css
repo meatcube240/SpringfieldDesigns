@@ -36,12 +36,12 @@ margin: 25px;
 display: flex;
 justify-content: center;
 align-items: center;
-line-height: 70px;
+line-height: 30px;
 
 
 }
  a img, #projects img{
-  max-height: 300px;
+  Max-width: 90%;
   width: auto;
   border: 1px solid black;
 }

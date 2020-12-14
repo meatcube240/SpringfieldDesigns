@@ -24,7 +24,6 @@ font-family: 'Fjalla One';
    filter: contrast(130%);
    transform: rotate(180deg);
    top: 0;
-
 }
 
 #projects{
@@ -46,6 +45,8 @@ background-color: lightyellow;
   Max-width: 90%;
   width: auto;
   border: 1px solid black;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 p, ul, #contact{

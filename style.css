@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
-  display: flex;
-  justify-content: center;
+
 }
 h1{
   font-family: 'Fjalla One';
   font-size: 80px;
+  margin-bottom: 150px;
 }
 
 h2, h3{
@@ -19,9 +19,11 @@ font-family: 'Fjalla One';
   display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 60%;
-   opacity: 0.5;
+   width: 100%;
+   opacity: 0.3;
+   filter: contrast(130%);
    transform: rotate(180deg);
+   top: 0;
 
 }
 
@@ -31,11 +33,12 @@ font-family: 'Fjalla One';
 
 #extras{
   height: auto;
-margin: 25px;
+margin: 100px 25px 50px 25px;
 display: flex;
 justify-content: center;
 align-items: center;
 line-height: 30px;
+background-color: lightyellow;
 
 
 }
@@ -77,16 +80,12 @@ p, ul{
 #header{
 }
 ul{
-  background-color: lightyellow;
-  padding: 20px;
-  margin: 20px;
+  padding: 30px 50px;
 }
 
 li{
     text-decoration: none;
     text-align: left;
-
-
 }
 
 #recent{
@@ -96,14 +95,12 @@ li{
 }
 span{
 background-color: lightBlue;
+font-size: 14px;
+padding-bottom: 15px;
 
 }
 span img{
 max-width: 100%;
+padding-bottom: 15px;
 
-}
-
-@media only screen and (max-width : 320px),
-only screen and (max-device-width : 320px){
- .bground {width: 100%;}
 }
